@@ -1,0 +1,47 @@
+#rood,html,body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.App{
+    height: 100vh;
+    background: url('a.jpg');
+    background-color: rgb(255, 0, 0);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mid{
+    height: 30%;
+    width: 40%;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+.mid button{
+    margin-top: 15px;
+    height: 40px;
+    border: 0;
+    border-radius:10px; 
+    outline: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(240, 186, 240) ;
+}
+
+@media (max-width:1200px){
+    .mid{
+        width: 90%;
+        height: 40%;
+    }
+}
